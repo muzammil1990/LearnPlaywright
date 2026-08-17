@@ -1,3 +1,0 @@
-{
-  "url": "http://only-testing-blog.blogspot.com/"
-}

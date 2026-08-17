@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#post-body-7297556448793668582 div[dir='ltr'] button"
-}
