@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "playwright": "^1.62.1"
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "@types/node": "^25.9.3"
   }
 }
