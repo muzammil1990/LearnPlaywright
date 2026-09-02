@@ -10,7 +10,7 @@ Inside that directory, you can run several commands:
   npx playwright test --project=chromium
     Runs the tests only on Desktop Chrome.
 
-  npx playwright test example
+  npx playwright test <filename>
     Runs the tests in a specific file.
 
   npx playwright test --debug
@@ -18,3 +18,6 @@ Inside that directory, you can run several commands:
 
   npx playwright codegen
     Auto generate tests with Codegen.
+
+  npx playwright run example1.ts
+    runs the example1.ts in headless mode
