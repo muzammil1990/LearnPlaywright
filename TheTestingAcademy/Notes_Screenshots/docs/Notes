@@ -14,10 +14,13 @@ Inside that directory, you can run several commands:
     Runs the tests in a specific file.
 
   npx playwright test --debug
-    Runs the tests in debug mode.
+    Runs the tests in debug mode. | opens a separate debug window
 
   npx playwright codegen
     Auto generate tests with Codegen.
 
-  npx playwright run example1.ts
-    runs the example1.ts in headless mode
+  npx playwright test <name of file to run> //npx = command is used to run the command 
+    runs the  example.spec.ts in headless mode by default
+
+  npx playwright test example.spec.ts --headed
+    runs the test in headed mode
